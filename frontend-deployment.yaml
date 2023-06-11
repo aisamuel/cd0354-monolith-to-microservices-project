@@ -1,19 +1,22 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  labels:
-    service: frontend
   name: frontend
+  labels:
+    app: frontend
 spec:
   replicas: 2
+  selector:
+    matchLabels:
+      app: frontend
   template:
     metadata:
       labels:
-        service: frontend
+        app: frontend
         api: external        
     spec:
       containers:
-      - image: aisamuel/:1.0.0
+      - image: aisamuel/udagram-frontend:v1
         name: frontend
         imagePullPolicy: Always          
         ports:
