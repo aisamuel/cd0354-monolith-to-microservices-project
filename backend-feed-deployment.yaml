@@ -26,16 +26,16 @@ spec:
             memory: "1024Mi"
             cpu: "500m"                  
         env:
-        - name: POSTGRES_PORT
-          valueFrom:
-            configMapKeyRef:
-              name: postgres-port
-              key: POSTGRES_PORT
-        - name: POSTGRES_DIALECT
-          valueFrom:
-            configMapKeyRef:
-              name: postgres-dialect
-              key: POSTGRES_DIALECT
+        # - name: POSTGRES_PORT
+        #   valueFrom:
+        #     configMapKeyRef:
+        #       name: postgres-port
+        #       key: POSTGRES_PORT
+        # - name: POSTGRES_DIALECT
+        #   valueFrom:
+        #     configMapKeyRef:
+        #       name: postgres-dialect
+        #       key: POSTGRES_DIALECT
         - name: URL
           valueFrom:
             configMapKeyRef:
