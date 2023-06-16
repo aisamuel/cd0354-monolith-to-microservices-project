@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: aisamuel/udagram-frontend:v1
+      - image: aisamuel/udagram-frontend:v7
         name: frontend
         imagePullPolicy: Always          
         ports:

@@ -1,9 +1,17 @@
 apiVersion: v1
-kind: Secret
+kind: ConfigMap
 metadata:
-  name: env-secret
-type: Opaque
+  name: env-config
+  namespace: default
 data:
   URL: aHR0cDovL2xvY2FsaG9zdDo4MTAw
+  POSTGRES_USERNAME: c2FtdWVsbmV3ZGI=
+  POSTGRES_PASSWORD: U2FtdWVsNjUjKiM=
+  POSTGRES_HOST: c2FtdWVsbmV3ZGIuY2tmcWtlcmZ2NGdnLnVzLWVhc3QtMS5yZHMuYW1hem9uYXdzLmNvbQ==
+  POSTGRES_DB: cG9zdGdyZXM=
+  AWS_BUCKET: dGVzdC0yMzQ1Njc3LXNhbS1kZXY=
+  AWS_REGION: dXMtZWFzdC0x
+  AWS_PROFILE: dXMtZWFzdC0x
+  JWT_SECRET: dGVzdGluZw==
   # POSTGRES_PORT: NTQzMg==
 
