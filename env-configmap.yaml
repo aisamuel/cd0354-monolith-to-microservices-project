@@ -5,4 +5,5 @@ metadata:
 type: Opaque
 data:
   URL: aHR0cDovL2xvY2FsaG9zdDo4MTAw
+  POSTGRES_PORT: NTQzMg==
 
