@@ -4,24 +4,25 @@ metadata:
   name: env-config
   namespace: default
 data:
-  POSTGRES_USERNAME: samuelnewdb
-  POSTGRES_PASSWORD: Samuel65#*#
-  POSTGRES_HOST: samuelnewdb.ckfqkerfv4gg.us-east-1.rds.amazonaws.com
-  POSTGRES_DB: postgres
-  AWS_BUCKET: test-2345677-sam-dev
-  # export POSTGRES_PORT=5432
-  AWS_REGION: us-east-1
-  AWS_PROFILE: default
-  JWT_SECRET: testing
-  URL: http://localhost:8100
-  # URL: aHR0cDovL2xvY2FsaG9zdDo4MTAw
-  # POSTGRES_USERNAME: c2FtdWVsbmV3ZGI=
-  # POSTGRES_PASSWORD: U2FtdWVsNjUjKiM=
-  # POSTGRES_HOST: c2FtdWVsbmV3ZGIuY2tmcWtlcmZ2NGdnLnVzLWVhc3QtMS5yZHMuYW1hem9uYXdzLmNvbQ==
-  # POSTGRES_DB: cG9zdGdyZXM=
-  # AWS_BUCKET: dGVzdC0yMzQ1Njc3LXNhbS1kZXY=
-  # AWS_REGION: dXMtZWFzdC0x
-  # AWS_PROFILE: dXMtZWFzdC0x
-  # JWT_SECRET: dGVzdGluZw==
+  URL: aHR0cDovL2xvY2FsaG9zdDo4MTAw
+  POSTGRES_USERNAME: c2FtdWVsbmV3ZGI=
+  POSTGRES_PASSWORD: U2FtdWVsNjUjKiM=
+  POSTGRES_HOST: c2FtdWVsbmV3ZGIuY2tmcWtlcmZ2NGdnLnVzLWVhc3QtMS5yZHMuYW1hem9uYXdzLmNvbQ==
+  POSTGRES_DB: cG9zdGdyZXM=
+  AWS_BUCKET: dGVzdC0yMzQ1Njc3LXNhbS1kZXY=
+  AWS_REGION: dXMtZWFzdC0x
+  AWS_PROFILE: dXMtZWFzdC0x
+  JWT_SECRET: dGVzdGluZw==
   # POSTGRES_PORT: NTQzMg==
+  # POSTGRES_USERNAME: samuelnewdb
+  # POSTGRES_PASSWORD: Samuel65#*#
+  # POSTGRES_HOST: samuelnewdb.ckfqkerfv4gg.us-east-1.rds.amazonaws.com
+  # POSTGRES_DB: postgres
+  # AWS_BUCKET: test-2345677-sam-dev
+  # # export POSTGRES_PORT=5432
+  # AWS_REGION: us-east-1
+  # AWS_PROFILE: default
+  # JWT_SECRET: testing
+  # URL: http://localhost:8100
+  
 
