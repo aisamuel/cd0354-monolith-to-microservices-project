@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: aisamuel/udagram-frontend:v9
+      - image: aisamuel/udagram-frontend:v10
         name: frontend
         imagePullPolicy: Always          
         ports:
@@ -28,4 +28,4 @@ spec:
           limits:
             memory: "1024Mi"
             cpu: "500m"                
-      # restartPolicy: Always
+      restartPolicy: Always

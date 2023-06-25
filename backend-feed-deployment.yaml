@@ -23,7 +23,7 @@ spec:
         name: backend-feed
         ports:
         - containerPort: 80 
-        imagePullPolicy: Always  
+      restartPolicy: Always 
         # resources:
         #   requests:
         #     memory: "64Mi"
