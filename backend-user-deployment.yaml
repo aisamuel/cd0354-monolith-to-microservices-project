@@ -21,7 +21,9 @@ spec:
       containers:
       - image: aisamuel/udagram-api-user:v1
         name: backend-user 
-        imagePullPolicy: Always  
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80 
         # resources:
         #   requests:
         #     memory: "64Mi"
