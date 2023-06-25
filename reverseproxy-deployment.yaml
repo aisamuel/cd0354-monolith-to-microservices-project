@@ -17,7 +17,6 @@ spec:
       containers:
       - image: aisamuel/udagram-reverseproxy:v1
         name: reverseproxy
-        imagePullPolicy: Always
         resources:
           requests:
             memory: "64Mi"
