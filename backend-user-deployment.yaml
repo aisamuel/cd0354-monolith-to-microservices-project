@@ -23,6 +23,15 @@ spec:
         name: backend-user 
         ports:
         - containerPort: 80 
+        env:
+        volumeMounts:
+        - name: aws-secret
+          mountPath: "/root/.aws/"
+          readOnly: true
+      volumes:
+      - name: aws-secret
+        secret:
+          secretName: aws-secret
       restartPolicy: Always
         # resources:
         #   requests:
