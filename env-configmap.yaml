@@ -4,23 +4,12 @@ metadata:
   name: env-config
   namespace: default
 data:
-  URL: aHR0cDovL2xvY2FsaG9zdDo4MTAw
-  POSTGRES_HOST: c2FtdWVsbmV3ZGIuY3diMWZpbzhzM2V4LnVzLWVhc3QtMS5yZHMuYW1hem9uYXdzLmNvbQ
-  POSTGRES_DB: cG9zdGdyZXM=
-  AWS_BUCKET: dGVzdC0yMzQ1Njc5LXNhbS1kZXY
-  AWS_REGION: dXMtZWFzdC0x
-  AWS_PROFILE: dXMtZWFzdC0x
-  JWT_SECRET: dGVzdGluZw==
-  # POSTGRES_PORT: NTQzMg==
-  # POSTGRES_USERNAME: **********
-  # POSTGRES_PASSWORD: ************
-  # POSTGRES_HOST: ****************
-  # POSTGRES_DB: postgres
-  # AWS_BUCKET: ***********
-  # # export POSTGRES_PORT=5432
-  # AWS_REGION: us-east-1
-  # AWS_PROFILE: default
-  # JWT_SECRET: testing
-  # URL: http://localhost:8100
+  URL: "http://aa9072fece3c04e70a525b3a3ca761e6-1574223951.us-east-1.elb.amazonaws.com"
+  POSTGRES_HOST: "samuelnewdb.cwb1fio8s3ex.us-east-1.rds.amazonaws.com"
+  POSTGRES_DB: "postgres"
+  AWS_BUCKET: "test-2345679-sam-dev"
+  AWS_REGION: "us-east-1"
+  AWS_PROFILE: "default"
+  JWT_SECRET:  "testing"
   
 

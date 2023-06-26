@@ -1,16 +1,4 @@
 export const config = {
-  // 'username': "******************",
-  // 'password': "*****************",
-  // 'database': "postgres",
-  // 'host': "*********************************",
-  // 'dialect': 'postgres',
-  // 'aws_region': "us-east-1",
-  // 'aws_profile': "default",
-  // 'aws_media_bucket': "*******************",
-  // 'url': "***************",
-  // 'jwt': {
-  //   'secret': "testing",
-  // },
   'username': process.env.POSTGRES_USERNAME,
   'password': process.env.POSTGRES_PASSWORD,
   'database': process.env.POSTGRES_DB,
