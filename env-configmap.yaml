@@ -5,8 +5,6 @@ metadata:
   namespace: default
 data:
   URL: aHR0cDovL2xvY2FsaG9zdDo4MTAw
-  POSTGRES_USERNAME: c2FtdWVsbmV3ZGI=
-  POSTGRES_PASSWORD: U2FtdWVsNjUjKiM=
   POSTGRES_HOST: c2FtdWVsbmV3ZGIuY3diMWZpbzhzM2V4LnVzLWVhc3QtMS5yZHMuYW1hem9uYXdzLmNvbQ
   POSTGRES_DB: cG9zdGdyZXM=
   AWS_BUCKET: dGVzdC0yMzQ1Njc5LXNhbS1kZXY
@@ -14,11 +12,11 @@ data:
   AWS_PROFILE: dXMtZWFzdC0x
   JWT_SECRET: dGVzdGluZw==
   # POSTGRES_PORT: NTQzMg==
-  # POSTGRES_USERNAME: samuelnewdb
-  # POSTGRES_PASSWORD: Samuel65#*#
-  # POSTGRES_HOST: samuelnewdb.ckfqkerfv4gg.us-east-1.rds.amazonaws.com
+  # POSTGRES_USERNAME: **********
+  # POSTGRES_PASSWORD: ************
+  # POSTGRES_HOST: ****************
   # POSTGRES_DB: postgres
-  # AWS_BUCKET: test-2345677-sam-dev
+  # AWS_BUCKET: ***********
   # # export POSTGRES_PORT=5432
   # AWS_REGION: us-east-1
   # AWS_PROFILE: default
